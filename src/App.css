@@ -5,12 +5,15 @@
   font-family: 'Inter';
 }
 
+body {
+  background-color: #282d35;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 550px;
-  height: 90px;
+
   padding: 20px;
   background-color: #21222a;
 }
@@ -39,6 +42,10 @@
 
 main {
   padding: 40px 20px;
+  color: #ffffff;
+  background-image: url('src/assets/icons/react-icon-large.png');
+  background-repeat: no-repeat;
+  background-position: right 85%;
 }
 
 ul {
@@ -47,4 +54,9 @@ ul {
 
 li {
   padding-top: 10px;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 1.3rem;
 }
