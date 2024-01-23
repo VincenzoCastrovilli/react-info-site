@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="logo">
         <img
           src="src/assets/icons/React-icon.png"
@@ -10,6 +10,6 @@ export default function Navbar() {
         <p className="name">ReactFacts</p>
       </div>
       <div className="info">React Course - Project 1</div>
-    </div>
+    </nav>
   );
 }
