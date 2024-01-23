@@ -36,3 +36,15 @@
   color: #ffffff;
   font-weight: 600;
 }
+
+main {
+  padding: 40px 20px;
+}
+
+ul {
+  padding: 20px 40px;
+}
+
+li {
+  padding-top: 10px;
+}
