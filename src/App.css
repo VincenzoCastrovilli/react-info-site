@@ -1,1 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  height: 90px;
+  padding: 20px;
+  background-color: #21222a;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 50px;
+}
+
+.name {
+  padding: 10px;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.info {
+  color: #ffffff;
+}
