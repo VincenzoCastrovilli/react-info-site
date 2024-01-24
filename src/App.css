@@ -43,7 +43,7 @@ body {
 main {
   padding: 40px 20px;
   color: #ffffff;
-  background-image: url('src/assets/icons/react-icon-large.png');
+  background-image: url('./assets/icons/react-icon-large.png');
   background-repeat: no-repeat;
   background-position: right 85%;
 }
